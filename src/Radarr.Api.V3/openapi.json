@@ -131,6 +131,14 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "rememberMe",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
           }
         ],
         "responses": {
@@ -167,7 +175,7 @@
                     "type": "string"
                   },
                   "rememberMe": {
-                    "type": "string"
+                    "type": "boolean"
                   }
                 }
               },
